@@ -1,7 +1,7 @@
 import styles from "./publications.module.scss"
 
 export default function Publications() {
-    const publications = [
+    const publications:string[] = [
         "C. Szczepaniak, Pedagogie kobiecości w polskim dyskursie prasy kobiecej, Wydawnictwo DSW, listopad 2023, w druku, ISBN 978-83-65408-67-9.",
         "A. Cywiński, C. Szczepaniak, Pedagogia intelektualisty publicznego na przykładzie życia i twórczości Gordona Matthew Sumner`a (Sting), „Parezja” 2023, w druku.",
         "C. Szczepaniak, Dom to nie tylko dach, ściany i okna. Opowieść o tym jak próbowałam zaoferować subsydiarność, W: A. Cywiński, W. Lib, L. Marek, E. Perzycka-Borowska (red.) TROSKA. Co wojna w Ukrainie nam zrobiła? Autoetnograficzne opowieści studentów i nauczycieli akademickich, Wydawnictwo Uniwersytetu Rzeszowskiego, 2023, w druku",
@@ -17,7 +17,7 @@ export default function Publications() {
         "O. Szwabowski, C. Szczepaniak, M. Pławski, P. Wężniejewska, After the first review: A Trembling Poem, „Qualitative Inquiry”, Nov – Dec. 2019, vol. 25, numer 9 – 10.",
         "C. Szczepaniak, Ukorporacyjnienie uniwersytetu w badaniu autoetnograficznym, „Pedagogika Szkoły Wyższej”, nr 1/2018 (23)."
     ]
-    const conferences = [
+    const conferences:string[] = [
         "X Transdyscyplinarne Sympozjum Badań Jakościowych, „Krytyczne badania jakościowe dla lepszego świata”, Słupsk – Ustka, 13 – 16.06.2023, Uniwersytet Pomorski w Słupsku, tytuł wystąpienia: „On the authenthicity in autoethnography in the era of AI. Can AI write an autoethnography?”",
         "Kobiecość: Literatura – Sztuka – Popkultura, Uniwersytet Mikołaja Kopernika w Toruniu i Instytut Przeciwdziałania Wykluczeniom, online, 23 – 24.02.2023, tytuł wystąpienia: „Ciałopozytywność czy walka z ciałem i jego dyscyplinowanie? Krytyczna analiza dyskursu przekazów czasopisma „Women’s Health”.",
         "International Symposium on Autoethnography and Narrative, 03- 05. 01. 2023, online,  Wystąpienie wspólnie z : K. Dobosz, A. Kacperczyk, M. Kafar, K. T. Konecki, K. Kroczak, A. Melnikov, O. Szwabowski, zatytułowane: The Reverberations of War: Ukrainian and Polish Academics Perform a Collective Autoethnography of Experiencing War in Ukraine.",
@@ -28,13 +28,13 @@ export default function Publications() {
         "IX Transdyscyplinarne Sympozjum Badań Jakościowych, Uniwersytet w Białymstoku (8-9.06.2021, online), tytuł wystąpienia: „Samotność rodzicielska – próba z(re)definiowania zjawiska w oparciu o badanie autoetnograficzne rodziny marynarskiej”.",
         "Ogólnopolska Konferencja Naukowa „Doświadczanie studiowania” (5-6.12.2017): Członkini komitetu organizacyjnego, Tytuł wystąpienia: „Korpo czy uczelnia? Z doświadczeń studentki”. "
     ]
-    const seminaries = [
+    const seminaries:string[] = [
         "Ogólnopolskie Seminarium Naukowe, „Pedagogika Pozytywna: idee – badania – praktyki”, 25.03.2022.",
         "Konferencja „Zostań badaczką. Kobiety w nauce 2022”, 11.02.2022",
         "Ogólnopolskie Seminarium Naukowe \"Narracja w pedagogice\", 08.12.2021",
         "Konferencja przedzjazdowa PTP pt. „Przesilenie w kulturze jako przedmiot badań pedagogicznych”, 25.10.2021."
     ]
-    const workshops = [
+    const workshops:string[] = [
         "International Symposium on Autoethnography and Narrative workshops (3.01.2022).",
         "Warsztat Metodologiczny (6 godzin, online) „Analiza Dyskursu” prowadzony przez Annę Horolets i Joannę Bielecką – Prus w ramach IX Transdyscyplinarnego Sympozjum Badań Jakościowych organizowanego przez Uniwersytet w Białymstoku (07.06.2021)."
     ]
