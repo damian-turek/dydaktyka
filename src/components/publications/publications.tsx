@@ -44,7 +44,7 @@ export default function Publications() {
             <div className={styles.publication}>
                 <h2>Publikacje</h2>
                 {publications.map((publication) => (
-                    <ul>
+                    <ul key={publication}>
                         <li>{publication}</li>
                         <br/>
                     </ul>
@@ -53,7 +53,7 @@ export default function Publications() {
             <div className={styles.publication}>
                 <h2>Konferencje</h2>
                 {conferences.map((conferences) => (
-                    <ul>
+                    <ul key={conferences}>
                         <li>{conferences}</li>
                         <br/>
                     </ul>
@@ -62,7 +62,7 @@ export default function Publications() {
             <div className={styles.publication}>
                 <h2>Seminaria</h2>
                 {seminaries.map((seminary) => (
-                    <ul>
+                    <ul key={seminary}>
                         <li>{seminary}</li>
                         <br/>
                     </ul>
@@ -71,7 +71,7 @@ export default function Publications() {
             <div className={styles.publication}>
                 <h2>Warsztaty</h2>
                 {workshops.map((workshop) => (
-                    <ul>
+                    <ul key={workshop}>
                         <li>{workshop}</li>
                         <br/>
                     </ul>
