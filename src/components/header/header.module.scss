@@ -1,0 +1,50 @@
+@use "../../styles/colors";
+@use "../../styles/margins";
+@use "../../styles/fonts";
+@use "../../styles/media";
+
+.header {
+  background-color: colors.$darkBlue;
+  color: colors.$white;
+
+  padding: margins.$headerMargin;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100px;
+
+  font-size: fonts.$headerFontSize;
+
+  @include media.mobile {
+    height: 80px;
+    font-size: fonts.$responsiveHeaderFontSize;
+  }
+
+  nav {
+    width: 80%;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 0 50px;
+
+    scroll-behavior: smooth;
+    @include media.mobile {
+      justify-content: center;
+      align-items: center;
+    }
+
+    a {
+      color: colors.$white;
+      text-decoration: none;
+      transition: 0.5s ease-in-out;
+
+      white-space: nowrap;
+
+      &:hover {
+        color: colors.$grey;
+      }
+    }
+  }
+}
