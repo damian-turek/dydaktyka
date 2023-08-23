@@ -40,7 +40,7 @@ export default function Publications() {
     ]
 
     return (
-        <div name="publications" className={styles.publicationLayout}>
+        <div id="publications" className={styles.publicationLayout}>
             <div className={styles.publication}>
                 <h2>Publikacje</h2>
                 {publications.map((publication) => (

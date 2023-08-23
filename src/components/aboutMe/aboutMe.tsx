@@ -4,7 +4,7 @@ import styles from './aboutMe.module.scss'
 
 export default function AboutMe() {
     return (
-        <div name="aboutUs" className={styles.aboutMe}>
+        <div id="aboutUs" className={styles.aboutMe}>
             <Image
                 src={Hero}
                 alt="image"

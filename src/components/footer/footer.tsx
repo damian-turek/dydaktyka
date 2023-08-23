@@ -3,11 +3,11 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <footer name="footer" className={styles.footer}>
+        <footer id="footer" className={styles.footer}>
             <div className={styles.layout}>
             <div>
                 <h3>Colette Szczepaniak</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean imperdiet faucibus dui, sed aliquet lectus sollicitudin ultricies. Suspendisse pellentesque sapien risus, et ultricies lorem placerat non. Nam tellus justo, placerat ac congue sed, aliquet eget augue. Curabitur justo erat, scelerisque vel pretium quis, tempus sit amet justo. </p>
+                <p>Colette Szczepaniak, doktor nauk społecznych związana z Uniwersytetem Szczecińskim, to badaczka jakościowa i autoetnografka. Jej prace koncentrują się na płci kulturowej, kobiecości oraz socjologii morskiej. Jest współzałożycielką Kolektywu Myślowego Kobiet, który bada wpływ różnych zjawisk na życie kobiet z polskich uczelni – zarówno w sferze prywatnej, jak i zawodowej.</p>
             </div>
             <div>
                 <h3>Kontakt</h3>
