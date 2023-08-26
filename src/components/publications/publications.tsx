@@ -3,16 +3,16 @@ import styles from "./publications.module.scss"
 export default function Publications() {
     const publications:string[] = [
         "C. Szczepaniak, Pedagogie kobiecości w polskim dyskursie prasy kobiecej, Wydawnictwo DSW, listopad 2023, w druku, ISBN 978-83-65408-67-9.",
+        "D. Gruntkowska, E. Perzycka – Borowska, C. Szczepaniak, Multivocal Stories About Caring During The War In Ukraine, As Told by Polish Researchers, “Cultural Studies ↔ Critical Methodologies”, 27.07.2023.",
+        "K. Dobosz, A. Kacperczyk, M. Kafar, K.T. Konecki, H. Kroczak, A. Melnikov, C. Szczepaniak, O. Szwabowski, The Reverberations of War: Ukrainian and Polish Academics Write a Collective Autoethnography of Experiencing War in Ukraine, “Cultural Studies ↔ Critical Methodologies”, 06.06.2023.",
         "A. Cywiński, C. Szczepaniak, Pedagogia intelektualisty publicznego na przykładzie życia i twórczości Gordona Matthew Sumner`a (Sting), „Parezja” 2023, w druku.",
         "C. Szczepaniak, Dom to nie tylko dach, ściany i okna. Opowieść o tym jak próbowałam zaoferować subsydiarność, W: A. Cywiński, W. Lib, L. Marek, E. Perzycka-Borowska (red.) TROSKA. Co wojna w Ukrainie nam zrobiła? Autoetnograficzne opowieści studentów i nauczycieli akademickich, Wydawnictwo Uniwersytetu Rzeszowskiego, 2023, w druku",
-        "D. Gruntkowska, E. Perzycka – Borowska, C. Szczepaniak, Multivocal Stories About Caring During The War In Ukraine, As Told by Polish Researchers, “Cultural Studies ↔ Critical Methodologies”, w druku.",
-        "K. Dobosz, A. Kacperczyk, M. Kafar, K.T. Konecki, H. Kroczak, A. Melnikov, C. Szczepaniak, O. Szwabowski, The Reverberations of War: Ukrainian and Polish Academics Write a Collective Autoethnography of Experiencing War in Ukraine, “Cultural Studies ↔ Critical Methodologies”, 2023-06-06, DOI:10.1177/15327086231178013",
         "C. Szczepaniak, W „mikroświecie macierzyństwa”: doświadczanie samotności macierzyńskiej w badaniu autoetnograficznym, „Przegląd Socjologii Jakościowej”, t. XVIII, nr 4/2022.",
         "C. Szczepaniak, Cechy kobiecości w kontekstach społeczno – kulturowych. Badanie autoetnograficzne kobiety spodziewającej się córki, „Dyskursy Młodych Andragogów”, 23/2022.",
         "C. Szczepaniak, Pozorne doktoryzowanie się, pozorne matkowanie w czasie pandemii. Matka - doktorantka w czasie pandemii, w: Dzienniki z Pandemii. Autorefleksje nauczycieli akademickich i studentów w kontekście edukacji zdalnej w Polsce, E. Perzycka, E. Baron-Polańczyk, M. Gliniecka, W. Lib (red.), Wydawnictwo Uniwersytetu Zielonogórskiego, Wrzesień 2022.",
         "C. Szczepaniak, Autoetnografia trudów macierzyństwa, „Ars Educandi”, nr 18 / 2021.",
         "P. Kaczmarczyk, A. Madys, M. Pławski, C. Szczepaniak, O. Szwabowski, P. Wężniejewska, Kolektywne majsterkowanie albo zmiana, która nie nadchodzi, w: M. Kafar, A. Kacperczyk (red.), Autoetnograficzne „zbliżenia” i „oddalenia”, Wydawnictwo Uniwersytetu Łódzkiego, Łódź 2020.",
-        "P. Wężniejewska, O. Szwabowski, C. Szczepaniak, M. Pławski, The Praise of Collective Autoetnography, „Cultural Studies – Critical Methodologies”, first published: 18. 07. 2019.",
+        "P. Wężniejewska, O. Szwabowski, C. Szczepaniak, M. Pławski, The Praise of Collective Autoetnography, „Cultural Studies – Critical Methodologies”, 18. 07. 2019.",
         "M. Pławski, O.Szwabowski, C. Szczepaniak, P. Wężniejewska, Friendly writing as Non – inquiry: The problems of Collective Autoethnographic Writing About Collective Autoethnographic Wiritng, „Qualitative Inquiry”, Nov – Dec. 2019, vol. 25, numer 9 – 10.",
         "O. Szwabowski, C. Szczepaniak, M. Pławski, P. Wężniejewska, After the first review: A Trembling Poem, „Qualitative Inquiry”, Nov – Dec. 2019, vol. 25, numer 9 – 10.",
         "C. Szczepaniak, Ukorporacyjnienie uniwersytetu w badaniu autoetnograficznym, „Pedagogika Szkoły Wyższej”, nr 1/2018 (23)."
@@ -36,7 +36,7 @@ export default function Publications() {
     ]
     const workshops:string[] = [
         "International Symposium on Autoethnography and Narrative workshops (3.01.2022).",
-        "Warsztat Metodologiczny (6 godzin, online) „Analiza Dyskursu” prowadzony przez Annę Horolets i Joannę Bielecką – Prus w ramach IX Transdyscyplinarnego Sympozjum Badań Jakościowych organizowanego przez Uniwersytet w Białymstoku (07.06.2021)."
+        "Warsztat Metodologiczny „Analiza Dyskursu” prowadzony przez Annę Horolets i Joannę Bielecką – Prus w ramach IX Transdyscyplinarnego Sympozjum Badań Jakościowych organizowanego przez Uniwersytet w Białymstoku (07.06.2021)."
     ]
 
     return (
