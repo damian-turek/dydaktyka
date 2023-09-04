@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Hero from '../../../public/hero.jpg'
+import Hero from '../../images/hero.jpg'
 import styles from './aboutMe.module.scss'
 
 export default function AboutMe() {
