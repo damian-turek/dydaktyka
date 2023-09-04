@@ -29,7 +29,7 @@ jobs:
         run: npm ci
 
       - name: build
-        run: npm run next build
+        run: npm run build
 
       - name: deploy
         if: ${{ github.ref == 'refs/heads/main' }}
