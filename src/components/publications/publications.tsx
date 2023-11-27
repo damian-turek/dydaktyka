@@ -2,12 +2,13 @@ import styles from "./publications.module.scss"
 
 export default function Publications() {
     const publications:string[] = [
-        "C. Szczepaniak, Pedagogie kobiecości w polskim dyskursie prasy kobiecej, Wydawnictwo DSW, listopad 2023, w druku, ISBN 978-83-65408-67-9.",
+        "C. Szczepaniak, „Girls to the girl’s room, boys to the boy’s room”. The visible and invisible pedagogy in pre – school education from the perspective of Basil Bernstein, “Educational Studies Review”, w druku.",
+        "C. Szczepaniak, Pedagogie kobiecości w polskim dyskursie prasy kobiecej, Wrocław: Wydawnictwo DSW, listopad 2023, w druku, ISBN 978-83-65408-67-9.",
         "D. Gruntkowska, E. Perzycka – Borowska, C. Szczepaniak, Multivocal Stories About Caring During The War In Ukraine, As Told by Polish Researchers, “Cultural Studies ↔ Critical Methodologies”, 27.07.2023.",
-        "K. Dobosz, A. Kacperczyk, M. Kafar, K.T. Konecki, H. Kroczak, A. Melnikov, C. Szczepaniak, O. Szwabowski, The Reverberations of War: Ukrainian and Polish Academics Write a Collective Autoethnography of Experiencing War in Ukraine, “Cultural Studies ↔ Critical Methodologies”, 06.06.2023.",
+        "K. Dobosz, A. Kacperczyk, M. Kafar, K.T. Konecki, H. Kroczak, A. Melnikov, C. Szczepaniak, O. Szwabowski, The Reverberations of War: Ukrainian and Polish Academics Write a Collective Autoethnography of Experiencing War in Ukraine, “Cultural Studies ↔ Critical Methodologies”, 2023-06-06, DOI:10.1177/15327086231178013",
         "A. Cywiński, C. Szczepaniak, Pedagogia intelektualisty publicznego na przykładzie życia i twórczości Gordona Matthew Sumner`a (Sting), „Parezja” 2023, w druku.",
         "C. Szczepaniak, Dom to nie tylko dach, ściany i okna. Opowieść o tym jak próbowałam zaoferować subsydiarność, W: A. Cywiński, W. Lib, L. Marek, E. Perzycka-Borowska (red.) TROSKA. Co wojna w Ukrainie nam zrobiła? Autoetnograficzne opowieści studentów i nauczycieli akademickich, Wydawnictwo Uniwersytetu Rzeszowskiego, 2023, w druku",
-        "C. Szczepaniak, W „mikroświecie macierzyństwa”: doświadczanie samotności macierzyńskiej w badaniu autoetnograficznym, „Przegląd Socjologii Jakościowej”, t. XVIII, nr 4/2022.",
+        "C. Szczepaniak, W „mikroświecie macierzyństwa”: doświadczanie samotności macierzyńskiej w badaniu autoetnograficznym, „Przegląd Socjologii Jakościowej”, t. XVIII, nr 4/2022, DOI: 10.18778/1733-8069.18.4.06.",
         "C. Szczepaniak, Cechy kobiecości w kontekstach społeczno – kulturowych. Badanie autoetnograficzne kobiety spodziewającej się córki, „Dyskursy Młodych Andragogów”, 23/2022.",
         "C. Szczepaniak, Pozorne doktoryzowanie się, pozorne matkowanie w czasie pandemii. Matka - doktorantka w czasie pandemii, w: Dzienniki z Pandemii. Autorefleksje nauczycieli akademickich i studentów w kontekście edukacji zdalnej w Polsce, E. Perzycka, E. Baron-Polańczyk, M. Gliniecka, W. Lib (red.), Wydawnictwo Uniwersytetu Zielonogórskiego, Wrzesień 2022.",
         "C. Szczepaniak, Autoetnografia trudów macierzyństwa, „Ars Educandi”, nr 18 / 2021.",
@@ -18,6 +19,7 @@ export default function Publications() {
         "C. Szczepaniak, Ukorporacyjnienie uniwersytetu w badaniu autoetnograficznym, „Pedagogika Szkoły Wyższej”, nr 1/2018 (23)."
     ]
     const conferences:string[] = [
+        "XXXVI Letnia Szkoła Młodych Pedagogów i Pedagożek im. Marii Dudzikowej Komitetu Nauk Pedagogicznych PAN, Generacja antropocenu; co pedagogika i edukacja może/powinna/musi robić, by nie zostawiać świata takim, jaki jest? (Kielce 10-15.09.2023), Tytuł wystąpienia: „Aktywizm ekologiczny w perspektywie ekofeminizmu (przykłady)”.",
         "X Transdyscyplinarne Sympozjum Badań Jakościowych, „Krytyczne badania jakościowe dla lepszego świata”, Słupsk – Ustka, 13 – 16.06.2023, Uniwersytet Pomorski w Słupsku, tytuł wystąpienia: „On the authenthicity in autoethnography in the era of AI. Can AI write an autoethnography?”",
         "Kobiecość: Literatura – Sztuka – Popkultura, Uniwersytet Mikołaja Kopernika w Toruniu i Instytut Przeciwdziałania Wykluczeniom, online, 23 – 24.02.2023, tytuł wystąpienia: „Ciałopozytywność czy walka z ciałem i jego dyscyplinowanie? Krytyczna analiza dyskursu przekazów czasopisma „Women’s Health”.",
         "International Symposium on Autoethnography and Narrative, 03- 05. 01. 2023, online,  Wystąpienie wspólnie z : K. Dobosz, A. Kacperczyk, M. Kafar, K. T. Konecki, K. Kroczak, A. Melnikov, O. Szwabowski, zatytułowane: The Reverberations of War: Ukrainian and Polish Academics Perform a Collective Autoethnography of Experiencing War in Ukraine.",
@@ -37,6 +39,15 @@ export default function Publications() {
     const workshops:string[] = [
         "International Symposium on Autoethnography and Narrative workshops (3.01.2022).",
         "Warsztat Metodologiczny „Analiza Dyskursu” prowadzony przez Annę Horolets i Joannę Bielecką – Prus w ramach IX Transdyscyplinarnego Sympozjum Badań Jakościowych organizowanego przez Uniwersytet w Białymstoku (07.06.2021)."
+    ]
+
+    const moreover:string[] = [
+        "Stypendystka stypendium doktoranckiego oraz stypendium Rektora US w roku akademickim 2021/2022",
+        "Członkini Koła Naukowego Dydaktyki Szkoły Wyższej",
+        "uczestniczka projektu badawczego „Autoetnografie Studiowania” prowadzonego w Uniwersytecie Szczecińskim w roku akademickim 2015/2016",
+        "Kierownik projektu: dr hab. Oskar Szwabowski.",
+        "Inicjatorka i założycielka Kolektywu Myślowego Kobiet, w ramach którego kobiety z różnych polskich uczelni badają i analizują kategorię siostrzeństwa.",
+        "Znajomość języka francuskiego i angielskiego na poziomie B2. "
     ]
 
     return (
@@ -73,6 +84,15 @@ export default function Publications() {
                 {workshops.map((workshop) => (
                     <ul key={workshop}>
                         <li>{workshop}</li>
+                        <br/>
+                    </ul>
+                ))}
+            </div>
+            <div className={styles.publication}>
+                <h2>Ponadto </h2>
+                {moreover.map((moreover) => (
+                    <ul key={moreover}>
+                        <li>{moreover}</li>
                         <br/>
                     </ul>
                 ))}
