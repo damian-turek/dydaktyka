@@ -3,7 +3,7 @@ import styles from "./publications.module.scss"
 export default function Publications() {
     const publications:string[] = [
         "C. Szczepaniak, „Girls to the girl’s room, boys to the boy’s room”. The visible and invisible pedagogy in pre – school education from the perspective of Basil Bernstein, “Educational Studies Review”, w druku.",
-        "C. Szczepaniak, Pedagogie kobiecości w polskim dyskursie prasy kobiecej, Wrocław: Wydawnictwo DSW, listopad 2023, w druku, ISBN 978-83-65408-67-9.",
+        "C. Szczepaniak, Pedagogie kobiecości w polskim dyskursie prasy kobiecej, Wrocław: Wydawnictwo DSW, grudzień 2023, w druku, ISBN 978-83-65408-67-9.",
         "D. Gruntkowska, E. Perzycka – Borowska, C. Szczepaniak, Multivocal Stories About Caring During The War In Ukraine, As Told by Polish Researchers, “Cultural Studies ↔ Critical Methodologies”, 27.07.2023.",
         "K. Dobosz, A. Kacperczyk, M. Kafar, K.T. Konecki, H. Kroczak, A. Melnikov, C. Szczepaniak, O. Szwabowski, The Reverberations of War: Ukrainian and Polish Academics Write a Collective Autoethnography of Experiencing War in Ukraine, “Cultural Studies ↔ Critical Methodologies”, 2023-06-06, DOI:10.1177/15327086231178013",
         "A. Cywiński, C. Szczepaniak, Pedagogia intelektualisty publicznego na przykładzie życia i twórczości Gordona Matthew Sumner`a (Sting), „Parezja” 2023, w druku.",
@@ -41,15 +41,6 @@ export default function Publications() {
         "Warsztat Metodologiczny „Analiza Dyskursu” prowadzony przez Annę Horolets i Joannę Bielecką – Prus w ramach IX Transdyscyplinarnego Sympozjum Badań Jakościowych organizowanego przez Uniwersytet w Białymstoku (07.06.2021)."
     ]
 
-    const moreover:string[] = [
-        "Stypendystka stypendium doktoranckiego oraz stypendium Rektora US w roku akademickim 2021/2022",
-        "Członkini Koła Naukowego Dydaktyki Szkoły Wyższej",
-        "uczestniczka projektu badawczego \"Autoetnografie Studiowania\" prowadzonego w Uniwersytecie Szczecińskim w roku akademickim 2015/2016",
-        "Kierownik projektu: dr hab. Oskar Szwabowski.",
-        "Inicjatorka i założycielka Kolektywu Myślowego Kobiet, w ramach którego kobiety z różnych polskich uczelni badają i analizują kategorię siostrzeństwa.",
-        "Znajomość języka francuskiego i angielskiego na poziomie B2. "
-    ]
-
     return (
         <div id="publications" className={styles.publicationLayout}>
             <div className={styles.publication}>
@@ -84,15 +75,6 @@ export default function Publications() {
                 {workshops.map((workshop) => (
                     <ul key={workshop}>
                         <li>{workshop}</li>
-                        <br/>
-                    </ul>
-                ))}
-            </div>
-            <div className={styles.publication}>
-                <h2>Ponadto </h2>
-                {moreover.map((moreover) => (
-                    <ul key={moreover}>
-                        <li>{moreover}</li>
                         <br/>
                     </ul>
                 ))}
