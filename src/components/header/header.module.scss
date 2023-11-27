@@ -17,7 +17,7 @@
 
   font-size: fonts.$headerFontSize;
 
-  @include media.mobile {
+  @include media.tablet {
     height: 80px;
     font-size: fonts.$responsiveHeaderFontSize;
   }
@@ -30,7 +30,7 @@
     gap: 0 50px;
 
     scroll-behavior: smooth;
-    @include media.mobile {
+    @include media.tablet {
       justify-content: center;
       align-items: center;
     }

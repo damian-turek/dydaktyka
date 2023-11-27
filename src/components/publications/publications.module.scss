@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
 
-  @include media.mobile {
+  @include media.tablet {
     text-align: center;
   }
 

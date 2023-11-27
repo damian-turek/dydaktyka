@@ -1,6 +1,7 @@
 @use "../../styles/colors";
 @use "../../styles/margins";
 @use "../../styles/fonts";
+@use "../../styles/media";
 
 .footer {
   background-color: colors.$darkBlue;
@@ -13,12 +14,21 @@
 
   font-size: fonts.$headerFontSize;
 
+  @include media.mobile {
+
+    padding: 30px 10px;
+  }
+
   .layout {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     width: 80%;
+
+    @include media.mobile {
+      display: block;
+    }
 
     div {
       &:first-child {
