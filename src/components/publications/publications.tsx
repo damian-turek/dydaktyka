@@ -44,7 +44,7 @@ export default function Publications() {
     const moreover:string[] = [
         "Stypendystka stypendium doktoranckiego oraz stypendium Rektora US w roku akademickim 2021/2022",
         "Członkini Koła Naukowego Dydaktyki Szkoły Wyższej",
-        "uczestniczka projektu badawczego „Autoetnografie Studiowania” prowadzonego w Uniwersytecie Szczecińskim w roku akademickim 2015/2016",
+        "uczestniczka projektu badawczego \"Autoetnografie Studiowania\" prowadzonego w Uniwersytecie Szczecińskim w roku akademickim 2015/2016",
         "Kierownik projektu: dr hab. Oskar Szwabowski.",
         "Inicjatorka i założycielka Kolektywu Myślowego Kobiet, w ramach którego kobiety z różnych polskich uczelni badają i analizują kategorię siostrzeństwa.",
         "Znajomość języka francuskiego i angielskiego na poziomie B2. "
