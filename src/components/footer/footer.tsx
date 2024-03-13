@@ -8,6 +8,7 @@ export default function Footer() {
             <div>
                 <h3>Kontakt</h3>
                 <p><a href="mailto: colette.szczepaniak@usz.edu.pl">e-mail: colette.szczepaniak@usz.edu.pl</a></p>
+                <p><a href="mailto: cszczepaniak@zcdn.edu.pl">e-mail: cszczepaniak@zcdn.edu.pl</a></p>
             </div>
             <div>
                 <Link href="#aboutMe">O mnie</Link>

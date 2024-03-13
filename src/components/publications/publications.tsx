@@ -2,12 +2,13 @@ import styles from "./publications.module.scss"
 
 export default function Publications() {
     const publications:string[] = [
+        "C. Szczepaniak, Kobieta niepełnosprawna - podmiot podwójnej dyskryminacji: Sytuacja kobiet z niepełnosprawnościami w uniwersytecie, w: M. Piasecka, A. Irasiak (red.), Uniwersytet dostępny: konteksty kulturowo-społeczno-edukacyjne, Częstochowa: Uniwersytet Jana Długosza w Częstochowie, 2023.",
         "C. Szczepaniak, „Girls to the girl’s room, boys to the boy’s room”. The visible and invisible pedagogy in pre – school education from the perspective of Basil Bernstein, “Educational Studies Review”, w druku.",
-        "C. Szczepaniak, Pedagogie kobiecości w polskim dyskursie prasy kobiecej, Wrocław: Wydawnictwo DSW, grudzień 2023, w druku, ISBN 978-83-65408-67-9.",
+        "C. Szczepaniak, Pedagogie kobiecości w polskim dyskursie prasy kobiecej, Wrocław: Wydawnictwo DSW, grudzień 2023, ISBN 978-83-65408-67-9, możliwość zakupu pod linkiem: https://www.dsw.edu.pl/badania-i-nauka/wydawnictwa-dsw \n",
         "D. Gruntkowska, E. Perzycka – Borowska, C. Szczepaniak, Multivocal Stories About Caring During The War In Ukraine, As Told by Polish Researchers, “Cultural Studies ↔ Critical Methodologies”, 27.07.2023.",
         "K. Dobosz, A. Kacperczyk, M. Kafar, K.T. Konecki, H. Kroczak, A. Melnikov, C. Szczepaniak, O. Szwabowski, The Reverberations of War: Ukrainian and Polish Academics Write a Collective Autoethnography of Experiencing War in Ukraine, “Cultural Studies ↔ Critical Methodologies”, 2023-06-06, DOI:10.1177/15327086231178013",
-        "A. Cywiński, C. Szczepaniak, Pedagogia intelektualisty publicznego na przykładzie życia i twórczości Gordona Matthew Sumner`a (Sting), „Parezja” 2023, w druku.",
-        "C. Szczepaniak, Dom to nie tylko dach, ściany i okna. Opowieść o tym jak próbowałam zaoferować subsydiarność, W: A. Cywiński, W. Lib, L. Marek, E. Perzycka-Borowska (red.) TROSKA. Co wojna w Ukrainie nam zrobiła? Autoetnograficzne opowieści studentów i nauczycieli akademickich, Wydawnictwo Uniwersytetu Rzeszowskiego, 2023, w druku",
+        "A. Cywiński, C. Szczepaniak, Pedagogia intelektualisty publicznego na przykładzie życia i twórczości Gordona Matthew Sumner`a (Sting), Parezja 1/2023(19), DOI: 10.15290/parezja.2023.19.06",
+        "C. Szczepaniak, Dom to nie tylko dach, ściany i okna. Opowieść o tym jak próbowałam zaoferować subsydiarność, W: A. Cywiński, W. Lib, L. Marek, E. Perzycka-Borowska (red.) TROSKA. Co wojna w Ukrainie nam zrobiła? Autoetnograficzne opowieści studentów i nauczycieli akademickich, Rzeszów: Wydawnictwo Uniwersytetu Rzeszowskiego, 2023",
         "C. Szczepaniak, W „mikroświecie macierzyństwa”: doświadczanie samotności macierzyńskiej w badaniu autoetnograficznym, „Przegląd Socjologii Jakościowej”, t. XVIII, nr 4/2022, DOI: 10.18778/1733-8069.18.4.06.",
         "C. Szczepaniak, Cechy kobiecości w kontekstach społeczno – kulturowych. Badanie autoetnograficzne kobiety spodziewającej się córki, „Dyskursy Młodych Andragogów”, 23/2022.",
         "C. Szczepaniak, Pozorne doktoryzowanie się, pozorne matkowanie w czasie pandemii. Matka - doktorantka w czasie pandemii, w: Dzienniki z Pandemii. Autorefleksje nauczycieli akademickich i studentów w kontekście edukacji zdalnej w Polsce, E. Perzycka, E. Baron-Polańczyk, M. Gliniecka, W. Lib (red.), Wydawnictwo Uniwersytetu Zielonogórskiego, Wrzesień 2022.",
@@ -45,10 +46,20 @@ export default function Publications() {
         <div id="publications" className={styles.publicationLayout}>
             <div className={styles.publication}>
                 <h2>Publikacje</h2>
-                {publications.map((publication) => (
-                    <ul key={publication}>
-                        <li>{publication}</li>
-                        <br/>
+                {publications.map((publication, index) => (
+                    <ul key={index}>
+                        <li>
+                            {publication.includes("Pedagogie kobiecości w polskim dyskursie prasy kobiecej") ? (
+                                <>
+                                    {publication.substring(0, publication.indexOf("https://www.dsw.edu.pl/badania-i-nauka/wydawnictwa-dsw"))}
+                                    <a href="https://www.dsw.edu.pl/badania-i-nauka/wydawnictwa-dsw">https://www.dsw.edu.pl/badania-i-nauka/wydawnictwa-dsw</a>
+                                    {publication.substring(publication.indexOf("https://www.dsw.edu.pl/badania-i-nauka/wydawnictwa-dsw") + "https://www.dsw.edu.pl/badania-i-nauka/wydawnictwa-dsw".length)}
+                                </>
+                            ) : (
+                                publication
+                            )}
+                        </li>
+                        <br />
                     </ul>
                 ))}
             </div>
