@@ -2,6 +2,8 @@ import styles from "./publications.module.scss"
 
 export default function Publications() {
     const publications:string[] = [
+        "C. Szczepaniak, Mental Health and the Body: An autoethnography of neuralgia, migraine, and insulin resistance, in: A. Grant, J. Carson (eds.), Autoethnographies in Psychology and Mental Health. New Voices, Routledge, November, 2024.",
+        "C. Szczepaniak, Aktywizm klimatyczny kobiet w perspektywie wykorzystywania swoich ciał w przestrzeni publicznej w teorii Ervinga Goffmana, \"Parezja\", nr XXII, w druku.",
         "C. Szczepaniak, Kobieta niepełnosprawna - podmiot podwójnej dyskryminacji: Sytuacja kobiet z niepełnosprawnościami w uniwersytecie, w: M. Piasecka, A. Irasiak (red.), Uniwersytet dostępny: konteksty kulturowo-społeczno-edukacyjne, Częstochowa: Uniwersytet Jana Długosza w Częstochowie, 2023.",
         "C. Szczepaniak, „Girls to the girl’s room, boys to the boy’s room”. The visible and invisible pedagogy in pre – school education from the perspective of Basil Bernstein, “Educational Studies Review”, w druku.",
         "C. Szczepaniak, Pedagogie kobiecości w polskim dyskursie prasy kobiecej, Wrocław: Wydawnictwo DSW, grudzień 2023, ISBN 978-83-65408-67-9, możliwość zakupu pod linkiem: https://www.dsw.edu.pl/badania-i-nauka/wydawnictwa-dsw \n",
@@ -20,6 +22,9 @@ export default function Publications() {
         "C. Szczepaniak, Ukorporacyjnienie uniwersytetu w badaniu autoetnograficznym, „Pedagogika Szkoły Wyższej”, nr 1/2018 (23)."
     ]
     const conferences:string[] = [
+        "XXXVII Letnia Szkoły Młodych Pedagogów i Pedagożek im. Marii Dudzikowej, O pamięci, (nie)pamiętaniu i (nie)pamiętliwości; \n pamięć jako kategoria pedagogiczna,  8 – 13 września 2024, Łódź, prowadzenie warsztatów: \"W poszukiwaniu naukowej metody badania pamięci własnych doświadczeń\"",
+        "16th European Sociological Conference, \"Tension, Trust and Transformation\", 27-30.08.2024, Porto, Portugal, tytuł wystąpienia: A Partner At “high-risk” Or A Risky Partner? How Seafarers’ Partners Navigate Uncertainties Related To Their Spouses’ Work",
+        "1st RethinkBlue Conference Organized by COST Action CA22122, University of Zadar, Zadar, Chorwacja, 23-25.04.2023, tytuł wystąpienia: \"Polish seafarers’ female partners opinion on their life experiences – lifeworlds and microworlds of seafarers' female partners\".",
         "XXXVI Letnia Szkoła Młodych Pedagogów i Pedagożek im. Marii Dudzikowej, Generacja antropocenu; co pedagogika i edukacja może/powinna/musi robić, by nie zostawiać świata takim, jaki jest? (Kielce 10-15.09.2023), Tytuł wystąpienia: „Aktywizm ekologiczny w perspektywie ekofeminizmu (przykłady)”.",
         "X Transdyscyplinarne Sympozjum Badań Jakościowych, „Krytyczne badania jakościowe dla lepszego świata”, Słupsk – Ustka, 13 – 16.06.2023, Uniwersytet Pomorski w Słupsku, tytuł wystąpienia: „On the authenthicity in autoethnography in the era of AI. Can AI write an autoethnography?”",
         "Kobiecość: Literatura – Sztuka – Popkultura, Uniwersytet Mikołaja Kopernika w Toruniu i Instytut Przeciwdziałania Wykluczeniom, online, 23 – 24.02.2023, tytuł wystąpienia: „Ciałopozytywność czy walka z ciałem i jego dyscyplinowanie? Krytyczna analiza dyskursu przekazów czasopisma „Women’s Health”.",
